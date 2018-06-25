@@ -1,7 +1,7 @@
 {
   "name": "@dvelasquez/ts-crud",
   "author": "Danilo Velásquez <danilo.velasquez@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1-test.0",
   "license": "MIT",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
