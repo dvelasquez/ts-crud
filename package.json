@@ -1,7 +1,7 @@
 {
   "name": "@dvelasquez/ts-crud",
   "author": "Danilo Velásquez <danilo.velasquez@gmail.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
@@ -13,7 +13,7 @@
     "test": "jest",
     "prepublish": "yarn prepare",
     "release": "yarn standard-version",
-    "prerelease": "yarn standard-version --prerelease test",
+    "pre:release": "yarn standard-version --prerelease test",
     "commit": "git-cz"
   },
   "publishConfig": {
