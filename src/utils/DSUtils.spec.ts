@@ -1,4 +1,4 @@
-import { DSUtils } from '@/utils/DSUtils';
+import { DSUtils } from './DSUtils';
 
 describe('DSUtils suite', () => {
   it('Should return true if localStorage is available', () => {

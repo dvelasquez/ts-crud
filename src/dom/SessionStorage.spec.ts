@@ -1,6 +1,6 @@
 import 'jest-localStorage-mock';
-import { StorageDS } from '@/dom/StorageDS';
-import { DSUtils } from '@/utils/DSUtils';
+import { StorageDS } from './StorageDS';
+import { DSUtils } from '../utils/DSUtils';
 
 const typeStorage = 'SessionStorage';
 describe('SessionStorage test suite', () => {

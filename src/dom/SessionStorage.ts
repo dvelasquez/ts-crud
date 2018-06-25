@@ -3,8 +3,8 @@
  * @class SessionStorage
  * @desc A Storage class to save data into localStorage
  */
-import { WebStorage } from '@/dom/WebStorage';
-import { DSUtils } from '@/utils/DSUtils';
+import { WebStorage } from './WebStorage';
+import { DSUtils } from '../utils/DSUtils';
 
 export class SessionStorage implements WebStorage {
   private sessionStorage: Storage;

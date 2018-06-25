@@ -1,7 +1,7 @@
-import { CRUD } from '@/CRUD';
-import { LocalStorage } from '@/dom/LocalStorage';
-import { WebStorage } from '@/dom/WebStorage';
-import { SessionStorage } from '@/dom/SessionStorage';
+import { CRUD } from '../CRUD';
+import { LocalStorage } from './LocalStorage';
+import { WebStorage } from './WebStorage';
+import { SessionStorage } from './SessionStorage';
 
 /**
  * @class StorageDS

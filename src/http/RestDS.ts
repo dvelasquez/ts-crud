@@ -1,5 +1,5 @@
-import { DSUtils } from '@/utils/DSUtils';
-import { CRUD } from '@/CRUD';
+import { DSUtils } from '../utils/DSUtils';
+import { CRUD } from '../CRUD';
 
 /**
  * @class RestDS

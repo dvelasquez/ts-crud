@@ -1,5 +1,5 @@
 {
-  "name": "ts-crud",
+  "name": "@dvelasquez/ts-crud",
   "author": "Danilo Velásquez <danilo.velasquez@gmail.com>",
   "version": "1.0.0",
   "license": "MIT",
@@ -10,7 +10,8 @@
     "build": "tsc",
     "lint": "tslint --project .",
     "lint:fix": "tslint --project . --fix",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "yarn prepare"
   },
   "files": [
     "lib"

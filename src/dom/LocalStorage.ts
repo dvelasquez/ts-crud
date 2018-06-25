@@ -1,5 +1,5 @@
-import { WebStorage } from '@/dom/WebStorage';
-import { DSUtils } from '@/utils/DSUtils';
+import { WebStorage } from './WebStorage';
+import { DSUtils } from '../utils/DSUtils';
 
 /**
  * Class to save to cache info

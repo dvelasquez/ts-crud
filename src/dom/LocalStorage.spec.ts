@@ -1,6 +1,6 @@
 import 'jest-localstorage-mock';
-import { StorageDS } from '@/dom/StorageDS';
-import { LocalStorage } from '@/dom/LocalStorage';
+import { StorageDS } from './StorageDS';
+import { LocalStorage } from './LocalStorage';
 
 const typeStorage = 'LocalStorage';
 describe('LocalStorageDS test suite', () => {

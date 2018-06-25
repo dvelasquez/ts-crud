@@ -1,4 +1,4 @@
-import { RestDS } from '@/http/RestDS';
+import { RestDS } from './RestDS';
 import fetch from 'jest-fetch-mock';
 
 (global as any).fetch = fetch;
