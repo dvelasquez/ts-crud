@@ -11,7 +11,10 @@
     "lint": "tslint --project .",
     "lint:fix": "tslint --project . --fix",
     "test": "jest",
-    "prepublish": "yarn prepare"
+    "prepublish": "yarn prepare",
+    "release": "yarn standard-version",
+    "prerelease": "yarn standard-version --prerelease test",
+    "commit": "git-cz"
   },
   "files": [
     "lib"
@@ -19,11 +22,13 @@
   "devDependencies": {
     "@types/jest": "^23.1.1",
     "@types/node": "^10.3.5",
+    "cz-conventional-changelog": "^2.1.0",
     "jest": "^23.1.0",
     "jest-fetch-mock": "^1.6.5",
     "jest-junit-reporter": "^1.1.0",
     "jest-localstorage-mock": "^2.2.0",
     "prettier": "1.13.5",
+    "standard-version": "^4.4.0",
     "ts-jest": "^22.4.6",
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
@@ -52,5 +57,10 @@
       "@/(.*)$": "<rootDir>/src/$1"
     },
     "testRegex": "/src/.*\\.spec\\.ts$"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
